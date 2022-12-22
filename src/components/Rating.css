@@ -1,0 +1,67 @@
+.img_star_container {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: hsl(211, 19%, 24%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  color: hsl(0, 0%, 100%);
+  margin: 2rem 0 1rem 0;
+}
+
+.text {
+  font-size: 15px;
+  color: hsl(217, 12%, 63%);
+  line-height: 1.4rem;
+  margin-bottom: 1.25rem;
+}
+
+.rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+.rating_note {
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  height: 45px;
+  width: 45px;
+  background-color: hsl(211, 19%, 24%);
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  color: hsl(217, 12%, 63%);
+}
+.rating_note.active {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(216, 12%, 54%);
+}
+.rating_note:hover {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(25, 97%, 53%);
+}
+.submit_btn {
+  cursor: pointer;
+  text-transform: uppercase;
+  border: 0;
+  outline: 0;
+  width: 100%;
+  padding: 12px 0;
+  border-radius: 25px;
+  letter-spacing: 1.5px;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(25, 97%, 53%);
+  font-weight: 700;
+  font-family: inherit;
+}
+.submit_btn:hover {
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(0, 0%, 100%);
+}

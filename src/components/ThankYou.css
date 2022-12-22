@@ -1,0 +1,30 @@
+.img_thakyou_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.selected {
+  font-family: "Overpass";
+  width: 60%;
+  padding: 8px 12px;
+  color: hsl(25, 97%, 53%);
+  text-align: center;
+  margin: 1rem auto;
+  background-color: hsl(211, 19%, 24%);
+  border-radius: 25px;
+}
+.thank_title {
+  font-family: "Overpass";
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  margin: 2rem 0 1rem 0;
+}
+.thank_text {
+  font-family: "Overpass";
+  text-align: center;
+  color: hsl(216, 12%, 54%);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.4rem;
+}
